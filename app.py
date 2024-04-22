@@ -9,11 +9,7 @@ from torchnn import ImageClassifier  # my custom neural network class
 import os
 
 HOME = os.getcwd()
-if 'Project1' in HOME:
-    model_state_path = f'{HOME}/model_state.pt'
-else:
-    model_state_path = f'{HOME}/Project1/model_state.pt'
-
+model_state_path = f'{HOME}/model_state.pt'
 
 # Load the trained model
 model = ImageClassifier()
