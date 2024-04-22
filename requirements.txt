@@ -2,3 +2,5 @@ Pillow==10.1.0
 streamlit_drawable_canvas==0.9.3
 torch==2.1.1
 torchvision==0.16.1
+Flask==2.1.2
+gunicorn==20.1.0
